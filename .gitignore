@@ -1,0 +1,61 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.tmp
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+.history/
+
+# Flutter/Dart/Pub related
+**/build/
+**/ios/Pods/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+.packages
+
+# Android related files
+**/android/**/gradle-wrapper.jar
+**/android/**/local.properties
+**/android/**/.gradle
+**/android/captures/
+**/android/**/generated/
+
+# iOS related files
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+
+# Flutter build cache and generated files.
+.fvm/flutter_sdk/bin/cache/
+.fvm/flutter_sdk/bin/cache/artifacts/engine/*
+.fvm/flutter_sdk/bin/cache/artifacts/fonts/*
+.fvm/flutter_sdk/bin/cache/artifacts/libimobiledevice/*
+.fvm/flutter_sdk/bin/cache/artifacts/licenses/*
+.fvm/flutter_sdk/bin/cache/artifacts/ninja/*
+.fvm/flutter_sdk/bin/cache/artifacts/platforms/*
+.fvm/flutter_sdk/bin/cache/artifacts/pub/*
+.fvm/flutter_sdk/bin/cache/artifacts/sdk/*
+.fvm/flutter_sdk/bin/cache/artifacts/stagehand/*
+
+# Obfuscation and Processed files.
+.dart-obfuscation-counter.txt
+.dart_tool/package_config.json.copy
+
