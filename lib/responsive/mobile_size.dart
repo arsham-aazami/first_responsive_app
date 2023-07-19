@@ -7,8 +7,8 @@ class MobileSize extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(205, 28, 112, 164),
-        title: Text("Mobile Size"),
+        backgroundColor: const Color.fromARGB(205, 28, 112, 164),
+        title: const Text("Mobile Size"),
         centerTitle: true,
       ),
       body: Column(children: [
@@ -25,11 +25,11 @@ class MobileSize extends StatelessWidget {
         ),
         Expanded(
           child: Padding(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Container(
               height: 200,
               decoration: BoxDecoration(
-                  color: Color.fromARGB(205, 28, 112, 164),
+                  color: const Color.fromARGB(205, 28, 112, 164),
                   borderRadius: BorderRadius.circular(10)),
             ),
           ),
@@ -44,7 +44,7 @@ class MobileSize extends StatelessWidget {
                   height: 50,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
-                    color: Color.fromARGB(205, 28, 112, 164),
+                    color:const Color.fromARGB(205, 28, 112, 164),
                   ),
                 ),
               );

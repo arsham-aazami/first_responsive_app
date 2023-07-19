@@ -7,24 +7,24 @@ class tabletSize extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tablet Size"),
+        title: const Text("Tablet Size"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(205, 28, 112, 164),
+        backgroundColor: const Color.fromARGB(205, 28, 112, 164),
       ),
       body: Column(children: [
         Center(
           child: Container(
-            child: Text("You are now in tablet mode"),
-            color: Color.fromARGB(205, 28, 112, 164),
+            color: const Color.fromARGB(205, 28, 112, 164),
             width: 300,
             height: 20,
+            child: const Text("You are now in tablet mode"),
           ),
         ),
         Expanded(
           child: Padding(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Container(
-              color: Color.fromARGB(205, 28, 112, 164),
+              color: const Color.fromARGB(205, 28, 112, 164),
               width: 1000,
               height: 200,
             ),
@@ -37,7 +37,7 @@ class tabletSize extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.all(10),
                 child: Container(
-                  color: Color.fromARGB(205, 28, 112, 164),
+                  color: const Color.fromARGB(205, 28, 112, 164),
                   // width: 200,
                   height: 70,
                 ),

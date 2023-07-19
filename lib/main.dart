@@ -35,11 +35,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ResponsiveLayout(mobile_size : MobileSize(), tablet_size: tabletSize()) ,
+      home: ResponsiveLayout(
+          mobile_size: MobileSize(), tablet_size: tabletSize()),
     );
   }
 }
-
-
-
-
