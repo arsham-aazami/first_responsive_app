@@ -12,11 +12,11 @@ class MobileSize extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(children: [
-        
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(10),
             child: Container(
+              width: double.infinity,
               height: 200,
               decoration: BoxDecoration(
                   color: const Color.fromARGB(205, 28, 112, 164),
@@ -32,9 +32,10 @@ class MobileSize extends StatelessWidget {
                 padding: const EdgeInsets.all(10),
                 child: Container(
                   height: 50,
+                  width: double.infinity,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
-                    color:const Color.fromARGB(205, 28, 112, 164),
+                    color: const Color.fromARGB(205, 28, 112, 164),
                   ),
                 ),
               );

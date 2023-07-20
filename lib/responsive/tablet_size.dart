@@ -12,7 +12,6 @@ class tabletSize extends StatelessWidget {
         backgroundColor: const Color.fromARGB(205, 28, 112, 164),
       ),
       body: Column(children: [
-        
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(10),
@@ -21,6 +20,7 @@ class tabletSize extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
                 color: const Color.fromARGB(205, 28, 112, 164),
               ),
+              width: double.infinity,
               height: 200,
             ),
           ),
@@ -36,7 +36,7 @@ class tabletSize extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                     color: const Color.fromARGB(205, 28, 112, 164),
                   ),
-                  // width: 200,
+                  width: double.infinity,
                   height: 70,
                 ),
               );
