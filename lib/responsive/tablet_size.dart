@@ -14,6 +14,7 @@ class tabletSize extends StatelessWidget {
       body: Row(
         children: [
           Expanded(
+            flex: 3,
             child: Column(children: [
               Expanded(
                 child: Padding(
@@ -23,14 +24,13 @@ class tabletSize extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       color: const Color.fromARGB(205, 28, 112, 164),
                     ),
-                    width: double.infinity,
-                    height: 200,
+                    height: 250,
                   ),
                 ),
               ),
               Expanded(
                 child: ListView.builder(
-                  itemCount: 8,
+                  itemCount: 30,
                   itemBuilder: (context, index) {
                     return Padding(
                       padding: const EdgeInsets.all(10),
@@ -39,7 +39,6 @@ class tabletSize extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                           color: const Color.fromARGB(205, 28, 112, 164),
                         ),
-                        width: double.infinity,
                         height: 70,
                       ),
                     );
@@ -48,13 +47,15 @@ class tabletSize extends StatelessWidget {
               )
             ]),
           ),
-          Padding(
-            padding: EdgeInsets.all(10),
-            child: Container(
-              decoration: BoxDecoration(
-                  color: const Color.fromARGB(205, 28, 112, 164),
-                  borderRadius: BorderRadius.circular(10)),
-              width: 200,
+          Expanded(
+            flex: 1,
+            child: Padding(
+              padding: EdgeInsets.all(10),
+              child: Container(
+                decoration: BoxDecoration(
+                    color: const Color.fromARGB(205, 28, 112, 164),
+                    borderRadius: BorderRadius.circular(10)),
+              ),
             ),
           )
         ],

@@ -16,7 +16,6 @@ class MobileSize extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(10),
             child: Container(
-              width: double.infinity,
               height: 200,
               decoration: BoxDecoration(
                   color: const Color.fromARGB(205, 28, 112, 164),
@@ -26,13 +25,12 @@ class MobileSize extends StatelessWidget {
         ),
         Expanded(
           child: ListView.builder(
-            itemCount: 15,
+            itemCount: 30,
             itemBuilder: (context, index) {
               return Padding(
                 padding: const EdgeInsets.all(10),
                 child: Container(
-                  height: 50,
-                  width: double.infinity,
+                  height: 60,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: const Color.fromARGB(205, 28, 112, 164),
