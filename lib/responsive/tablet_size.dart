@@ -11,39 +11,54 @@ class tabletSize extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromARGB(205, 28, 112, 164),
       ),
-      body: Column(children: [
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(10),
+      body: Row(
+        children: [
+          Expanded(
+            child: Column(children: [
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(10),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: const Color.fromARGB(205, 28, 112, 164),
+                    ),
+                    width: double.infinity,
+                    height: 200,
+                  ),
+                ),
+              ),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: 8,
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(10),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: const Color.fromARGB(205, 28, 112, 164),
+                        ),
+                        width: double.infinity,
+                        height: 70,
+                      ),
+                    );
+                  },
+                ),
+              )
+            ]),
+          ),
+          Padding(
+            padding: EdgeInsets.all(10),
             child: Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: const Color.fromARGB(205, 28, 112, 164),
-              ),
-              width: double.infinity,
-              height: 200,
+                  color: const Color.fromARGB(205, 28, 112, 164),
+                  borderRadius: BorderRadius.circular(10)),
+              width: 200,
             ),
-          ),
-        ),
-        Expanded(
-          child: ListView.builder(
-            itemCount: 8,
-            itemBuilder: (context, index) {
-              return Padding(
-                padding: const EdgeInsets.all(10),
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: const Color.fromARGB(205, 28, 112, 164),
-                  ),
-                  width: double.infinity,
-                  height: 70,
-                ),
-              );
-            },
-          ),
-        )
-      ]),
+          )
+        ],
+      ),
     );
   }
 }
