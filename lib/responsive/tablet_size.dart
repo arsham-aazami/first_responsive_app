@@ -12,14 +12,7 @@ class tabletSize extends StatelessWidget {
         backgroundColor: const Color.fromARGB(205, 28, 112, 164),
       ),
       body: Column(children: [
-        Center(
-          child: Container(
-            color: const Color.fromARGB(205, 28, 112, 164),
-            width: 300,
-            height: 20,
-            child: const Text("You are now in tablet mode"),
-          ),
-        ),
+        
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(10),

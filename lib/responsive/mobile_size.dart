@@ -12,17 +12,7 @@ class MobileSize extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(children: [
-        Center(
-          child: Container(
-            color: const Color.fromARGB(205, 28, 112, 164),
-            width: 100,
-            height: 40,
-            child: const Text(
-              "You are now in mobile mode",
-              style: TextStyle(fontSize: 10),
-            ),
-          ),
-        ),
+        
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(10),
