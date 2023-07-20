@@ -24,8 +24,10 @@ class tabletSize extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(10),
             child: Container(
-              color: const Color.fromARGB(205, 28, 112, 164),
-              width: 1000,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: const Color.fromARGB(205, 28, 112, 164),
+              ),
               height: 200,
             ),
           ),
@@ -37,7 +39,10 @@ class tabletSize extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.all(10),
                 child: Container(
-                  color: const Color.fromARGB(205, 28, 112, 164),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: const Color.fromARGB(205, 28, 112, 164),
+                  ),
                   // width: 200,
                   height: 70,
                 ),
