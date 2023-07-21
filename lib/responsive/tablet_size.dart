@@ -7,7 +7,7 @@ class tabletSize extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tablet Size"),
+        title: Image.network("https://th.bing.com/th/id/R.a9bb130db07da8a3faa41434465f5ba5?rik=4y3yRkL397fiAg&pid=ImgRaw&r=0", width: 200, height: 60,),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(205, 28, 112, 164),
       ),
