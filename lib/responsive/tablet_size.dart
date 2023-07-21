@@ -48,7 +48,7 @@ class tabletSize extends StatelessWidget {
             ]),
           ),
           Expanded(
-            flex: 1,
+      
             child: Padding(
               padding: EdgeInsets.all(10),
               child: Container(
