@@ -38,8 +38,10 @@ class tabletSize extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: const Color.fromARGB(205, 28, 112, 164),
+                          
                         ),
                         height: 70,
+                        child: const Text("Some comments", style: TextStyle(fontSize: 16, fontFamily:"Normal-light" ),),
                       ),
                     );
                   },
